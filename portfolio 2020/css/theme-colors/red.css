@@ -1,0 +1,268 @@
+/*
+*	 Author: beshleyua
+*	 Author URL: http://themeforest.net/user/beshleyua
+*/
+
+/* TABLE OF CONTENTS
+	- Theme Red + Light Theme
+*/
+
+/* -  LIGHT THEME CODE */
+
+
+
+body {
+	background-color: #f9f9f9;
+	color: #101010;
+}
+
+.section .content-box {
+	border: 1px solid #1010101f;
+}
+
+/* - Typography */
+h1, h2, h3, h4, h5, h6, .popup-box .desc h4, .popup-box .category {
+	color: #101010;
+}
+
+.popup-box .category {
+	opacity: 0.6;
+}
+
+.section.started .started-content .h-title {
+	color: #101010;
+}
+
+
+.video-bg-mask {
+	background-color: #f9f9f9;
+}
+
+.background-enabled .header .top-menu ul li a,
+.background-enabled .sidebar_btn,
+.background-enabled .footer .soc a .ion,
+.background-enabled .footer .copy,
+.background-enabled-footer .footer .soc a .ion,
+.background-enabled-footer .footer .copy,
+.background-enabled .section.started .started-content .h-subtitle,
+.background-enabled .section.started .started-content .typed-bread,
+.background-enabled .section.started .started-content .typed-bread a,
+.background-enabled .section.started .started-content .typed-subtitle,
+.background-enabled .section.started .started-content .typed-cursor,
+.background-enabled .section.started .mouse_btn {
+	color: #101010;
+}
+
+.single-post-text {
+	background-color: #f7f7f7;
+}
+
+/* - Header / Menu */
+.header.fixed {
+	background-color: #f9f9f9f2;
+}
+
+.header.active {
+	background-color: #f9f9f9;
+}
+
+.header .menu-btn:before, .header .menu-btn:after, .header .menu-btn span {
+	background-color: #101010;
+}
+
+.header .top-menu ul li a {
+	color: #101010;
+}
+
+
+
+/* Footer */
+
+.footer .soc a .icon, .follow-label {
+	color: #878787;
+}
+.footer .soc a:hover .icon, .follow-label {
+	color: #878787;
+	opacity: 1;
+	transition: opacity 1s;
+}
+.follow-label:after {
+	background-color: #878787;
+}
+
+.footer .soc a .icon:hover{
+	color: #ec0a45;
+}
+
+
+/* -  END LIGHT THEME CODE */
+
+/* - Theme Red */
+
+
+.cursor-follower {
+	background: #ec0a45;
+}
+
+a {
+	color: #101010;
+}
+a:hover {
+	color: #ec0a45;
+}
+
+.ink {
+	background: #ec0a45;
+}
+
+a.btn,
+.btn,
+.single-post-text input[type="submit"] {
+	color: #ec0a45;
+	border-color: #ec0a45;
+}
+
+button:hover {
+	border-bottom-color: #ec0a45;
+}
+
+.section.started .started-content .h-title strong {
+	color: #ec0a45;
+}
+
+.section.started .started-content .h-subtitle strong,
+.section.started .started-content .typed-subtitle strong {
+	color: #ec0a45;
+}
+
+.section.started .mouse_btn {
+	color: #ec0a45;
+}
+
+.info-list ul li strong {
+	color: #ec0a45;
+}
+
+.resume-items .resume-item.active .date {
+	color: #ec0a45;
+}
+
+.skills ul li .progress .percentage {
+	background: #ec0a45;
+}
+
+.skills.list ul li .name:before {
+	color: #ec0a45;
+}
+
+.skills.dotted ul li .progress .da span {
+	background: #ec0a45;
+}
+
+.skills.circles .progress .bar, 
+.skills.circles .progress.p51 .fill, 
+.skills.circles .progress.p52 .fill, 
+.skills.circles .progress.p53 .fill, 
+.skills.circles .progress.p54 .fill, 
+.skills.circles .progress.p55 .fill, 
+.skills.circles .progress.p56 .fill, 
+.skills.circles .progress.p57 .fill, 
+.skills.circles .progress.p58 .fill, 
+.skills.circles .progress.p59 .fill, 
+.skills.circles .progress.p60 .fill, 
+.skills.circles .progress.p61 .fill, 
+.skills.circles .progress.p62 .fill, 
+.skills.circles .progress.p63 .fill, 
+.skills.circles .progress.p64 .fill, 
+.skills.circles .progress.p65 .fill, 
+.skills.circles .progress.p66 .fill, 
+.skills.circles .progress.p67 .fill, 
+.skills.circles .progress.p68 .fill, 
+.skills.circles .progress.p69 .fill, 
+.skills.circles .progress.p70 .fill, 
+.skills.circles .progress.p71 .fill, 
+.skills.circles .progress.p72 .fill, 
+.skills.circles .progress.p73 .fill, 
+.skills.circles .progress.p74 .fill, 
+.skills.circles .progress.p75 .fill, 
+.skills.circles .progress.p76 .fill, 
+.skills.circles .progress.p77 .fill, 
+.skills.circles .progress.p78 .fill, 
+.skills.circles .progress.p79 .fill, 
+.skills.circles .progress.p80 .fill, 
+.skills.circles .progress.p81 .fill, 
+.skills.circles .progress.p82 .fill, 
+.skills.circles .progress.p83 .fill, 
+.skills.circles .progress.p84 .fill, 
+.skills.circles .progress.p85 .fill, 
+.skills.circles .progress.p86 .fill, 
+.skills.circles .progress.p87 .fill, 
+.skills.circles .progress.p88 .fill, 
+.skills.circles .progress.p89 .fill, 
+.skills.circles .progress.p90 .fill, 
+.skills.circles .progress.p91 .fill, 
+.skills.circles .progress.p92 .fill, 
+.skills.circles .progress.p93 .fill, 
+.skills.circles .progress.p94 .fill, 
+.skills.circles .progress.p95 .fill, 
+.skills.circles .progress.p96 .fill, 
+.skills.circles .progress.p97 .fill, 
+.skills.circles .progress.p98 .fill, 
+.skills.circles .progress.p99 .fill, 
+.skills.circles .progress.p100 .fill {
+	border-color: #ec0a45;
+}
+
+.service-items .service-item .icon {
+	color: #ec0a45;
+}
+
+.section.works .filters label.glitch-effect {
+	color: #ec0a45;
+}
+
+.started-content .date {
+	color: #ec0a45;
+	border-color: #ec0a45;
+}
+
+.single-post-text p a,
+.comment-text p a {
+	color: #ec0a45;
+}
+
+blockquote {
+	border-left-color: #ec0a45;
+}
+
+.single-post-text ul > li:before,
+.comment-text ul > li:before {
+	background: #ec0a45;
+}
+
+.post-text-bottom span.cat-links a {
+	color: #ec0a45;
+}
+
+.post-text-bottom .tags-links a,
+.post-text-bottom .tags-links span {
+	color: #ec0a45;
+	border-color: #ec0a45;
+}
+
+.content-sidebar .widget ul li a:hover {
+	color: #ec0a45;
+}
+
+.content-sidebar .tagcloud a {
+	color: #ec0a45;
+	border-color: #ec0a45;
+}
+
+.pricing-item .icon {
+	color: #ec0a45;
+}
+
+.pricing-item .feature-list ul li strong {
+	background: #ec0a45;
+}

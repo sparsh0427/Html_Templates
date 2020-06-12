@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somo Theme Documentation</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i|Open+Sans:400,400i,600,600i,700,700i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/frontend-grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/prism.css">
+  <!--[if IE]>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.4.0/mootools-yui-compressed.js"></script>
+      <script type="text/javascript" src="js/selectivizr-min.js"></script>
+      <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div id="all">
+    <div class="nav-button active">
+      <div></div>
+    </div>
+    <header class="header active dark-bg fw-main-row">
+      <div class="logo-area"><a href="http://promo-theme.com/somo/"><img src="images/logo.png" alt="Somo"></a></div>
+      <div class="navigation">
+        <ul>
+          <li><a href="https://codex.wordpress.org/Installing_WordPress" target="_blank">Installing WordPress</a></li>
+          <li><a href="#installing_theme">Theme Installation</a></li>
+          <li><a href="#php_error">Theme Installation Errors</a></li>
+          <!-- <li><a href="#theme_wizard_installation">Theme Wizard Installation</a></li> -->
+          <li><a href="#installing_theme_plugins">Theme Plugins Installation</a></li>
+          <li><a href="#problems_license_activation">Problems with the Theme License Activation</a></li>
+          <li><a href="#installing_demo_content">Demo Content Installation</a></li>
+          <li><a href="#generate_thumbnails">Thumbnails Generating</a></li>
+          <li><a href="#initial_theme_setup">Initial Theme Setup</a></li>
+        </ul>
+        <ul>
+          <li><a href="#add_page">Add new page</a></li>
+          <li><a href="https://vc.wpbakery.com/video-tutorials/" target="_blank">Visual Composer tutorials</a></li>
+          <li><a href="#add_new_category">Add new post category</a></li>
+          <li><a href="#add_new_post">Add new post</a></li>
+        </ul>
+        <ul>
+          <li><a href="#add_new_portfolio_category">Add new portfolio category</a></li>
+          <li><a href="#add_new_portfolio_item">Add new portfolio item</a></li>
+        </ul>
+        <ul>
+          <li><a href="#child_theme">Customize theme / Child theme</a></li>
+        </ul>
+      </div>
+      <div class="copyright">© Promo-themes, 2017.<br>All Rights Reserved.</div>
+    </header>
+    <section class="main-container active fw-main-row">
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="installing_theme">Theme Installation</div>
+        <p>Appearance > Themes<br>Next, click on the Add New</p>
+        <p><img src="images/imgs/2_1.png" alt=""></p>
+        <p>Click "Upload Theme"</p>
+        <p><img src="images/imgs/2_2.png" alt=""></p>
+        <p>And look for the file with the theme on your PC</p>
+        <p><img src="images/imgs/2_3.png" alt=""></p>
+        <p>If the topic is not activated then go Appearance > Themes<br>And click active</p>
+        <p><img src="images/imgs/2_4.png" alt=""></p>
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="php_error">Theme Installation Errors</div>
+        <p>During installation you can have some errors. Here the most popular errors you can get:</p>
+        <ul>
+          <li>
+            <p><b>Error "Parse error: syntax error, unexpected ]"</b><br><strong>Solution:</strong> you need to change
+              the PHP version on your hosting. <strong>Minimal version 5.4</strong>. You can change it in the PHP
+              settings of your hosting.</p>
+          </li>
+          <li>
+            <p><b>The package could not be installed. The theme is missing the style.css stylesheet</b>
+              <br><strong>Solution:</strong> you've forgotten to unzip the main archive. It consist: theme, license,
+              offline documentation and demo content.</p>
+          </li>
+          <li>
+            <p><b>«Are You Sure You Want to Do This?»</b><br><strong>Solution:</strong> you need to increase your PHP
+              parameter upload_max_filesize to 256M. You can change it in the PHP settings of your hosting.</p>
+          </li>
+          <li>
+            <p><b>"Error Execution Failed"</b><br><strong>Solution:</strong> you need to increase the PHP parameter:
+              max_execution_time to 400-600 sec. You can change in the PHP settings of your hosting. </p>
+          </li>
+        </ul>
+
+      </div>
+      <!-- <div class="doc-item fw-container">
+        <div class="h1 s-top" id="theme_wizard_installation">Theme Wizard Installation</div>
+        <p>When you first install the theme you'll see the Wizard guide installation.It will help you to install theme easy.Please follow these steps:</p>
+        <p><img src="images/imgs/13_1.png" alt=""></p>
+        <p><img src="images/imgs/13_2.png" alt=""></p>
+        <p><img src="images/imgs/13_3.png" alt=""></p>
+        <p><img src="images/imgs/13_4.png" alt=""></p>
+        <p><img src="images/imgs/13_5.png" alt=""></p>
+      </div> -->
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="installing_theme_plugins">Theme Plugins Installation</div>
+        <p>When you first install the theme you'll see a popup on your dashboard from the theme asking you to install a
+          number of plugins.</p>
+        <p><img src="images/imgs/3_1.png" alt=""></p>
+        <p>Allow the theme to install these for you. The plugins which are installed are dependent of the theme, the
+          images below are for illustrative purposes only. </p>
+        <p><b>TIP - You can install all plugins at the same time by checking the box at the top of the this list, see
+            below for an example.</b></p>
+        <p>
+          <x-gif src="images/imgs/3_2.gif" stopped=""></x-gif>
+        </p>
+        <p>Once done (the process should take no more than a few minutes) You will see a confirmation notice similar to
+          the image below.</p>
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="problems_license_activation">Problems with the Theme License Activation</div>
+        <p>In some reasons you can have problems with the Theme activation:<br>
+          1) <b>"Purchase code is wrong"</b> - check that you activate the <b>main theme</b> (not the child). After go
+          Theme Options->License, insert you purchase code (check that it hasn't spaces after (you can mistake copy it
+          with)), click <b>"Save"</b> and wait 5-7 sec. After that, click <b>"Register the code"</b>. Some servers have
+          delay and waiting 5-7 sec. solve this problem.<br>
+          2) <b>"Something wrong, please try later"</b> - that's mean that you need to try to activate your license
+          later because Envato license system is not active at the moment. It happens very seldom, but if after 1 hour
+          you'll have the same notice, please contact our support team via support form from your ThemeForest account.
+        </p>
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="installing_demo_content">Demo Content Installation</div>
+        <p><b>Notice: YOU NEED TO ACTIVATE YOUR THEME BEFORE THE DEMO CONTENT INSTALLATION</b> (<a
+            href="#theme_license_activation">How to activate the theme</a>) </p>
+        <p>Go to Tools > Demo Content Install</p>
+        <img src="images/imgs/5_1.png" alt="">
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="generate_thumbnails">Generate Thumbnails</div>
+        <p>After installing the demo content, you need to generate thumbnail images</p>
+        <img src="images/imgs/8_1.gif" alt="">
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="initial_theme_setup">Initial Theme Setup</div>
+        <p>Ok, so far we have installed the theme, we have installed the plugins and imported the demo data, whats next?
+        </p>
+        <p>The final step in getting your new theme setup and ready for you to edit as you wish is to setup your home
+          page and menu. To begin, head to Settings > Reading, here you will need to set your Front Page.</p>
+        <p>By default WP is set to show your latest posts, however to make your theme just like our demo you should
+          select a static front page from the pages provided in the demo data.</p>
+        <img src="images/imgs/6_1.gif" alt="">
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="add_page">Add new page</div>
+        <p>To add a page to go Pages > Add new</p>
+        <img src="images/imgs/7_1.png" alt="">
+        <p>If you are using the page builder choose the page template "Landing page"</p>
+        <img src="images/imgs/7_2.png" alt="">
+        <p>After all the desired content, click "publish" button</p>
+        <img src="images/imgs/7_3.png" alt="">
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="add_new_category">Add new category</div>
+        <p>Go to Blog posts > Categories</p>
+        <p>Complete the fields and click "Add new category"</p>
+        <img src="images/imgs/10_1.png" alt="">
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="add_new_post">Add new post</div>
+        <p>Go to Blog Post > Add new</p>
+        <p>Enter a title, write text and select the heading, you can also select the thumbnail entries</p>
+        <img src="images/imgs/11_1.gif" alt="">
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="add_new_portfolio_category">Add new portfolio category</div>
+        <p>Go to Portfolio > Categories</p>
+        <p>Complete the fields and click "Add new category"</p>
+        <img src="images/imgs/12_1.png" alt="">
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="add_new_portfolio_item">Add new portfolio item</div>
+        <p>Go to Portfolio > Add New</p>
+        <p>Enter a title, write text and select the heading, you can also select the thumbnail entries</p>
+        <p><b>PS. To add more photos to the gallery we press the "Shift" key.</b></p>
+        <img src="images/imgs/13_1.gif" alt="">
+      </div>
+      <div class="doc-item fw-container">
+        <div class="h1 s-top" id="child_theme">Customize theme / Child theme</div>
+        <p>To make any changes to the theme files use a child theme, or when you update your changes to the theme files
+          may be lost</p>
+        <p><b>Child Theme is included in the main archive</b></p>
+        <p><a href="https://codex.wordpress.org/Child_Themes" target="_blank">Child Themes documentation in WP codex</a>
+        </p>
+      </div>
+    </section>
+  </div>
+  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script src="js/prism.js"></script>
+</body>
+
+</html>
